@@ -1,12 +1,12 @@
 require 'pry'
 
 def factorial(number)
-	#binding.pry
-	if number > 1
-		return number * factorial(number - 1)
-	else
-		return 1
-	end
+  #binding.pry
+  if number > 1
+    return number * factorial(number - 1)
+  else
+    return 1
+  end
 end
 
 # Alternative syntax using terinary operator for the if/else
