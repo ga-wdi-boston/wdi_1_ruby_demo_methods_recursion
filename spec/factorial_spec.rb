@@ -15,17 +15,16 @@ RSpec.describe 'factorial' do
   end
 end
 
-RSpec.describe 'terinary_factorial' do
-  it 'returns the factorial of n using recursion and a terinary operator' do
-    expect(terinary_factorial(1)).to be 1
-    expect(terinary_factorial(2)).to be 2
-    expect(terinary_factorial(3)).to be 6
-    expect(terinary_factorial(4)).to be 24
-    expect(terinary_factorial(5)).to be 120
-    expect(terinary_factorial(6)).to be 720
-    expect(terinary_factorial(7)).to be 5040
-    expect(terinary_factorial(8)).to be 40320
-    expect(terinary_factorial(9)).to be 362880
-    expect(terinary_factorial(10)).to be 3628800
+RSpec.describe 'ternary_factorial' do
+  it 'returns the factorial of n using recursion and a ternary operator' do
+    expect(ternary_factorial(2)).to be 2
+    expect(ternary_factorial(3)).to be 6
+    expect(ternary_factorial(4)).to be 24
+    expect(ternary_factorial(5)).to be 120
+    expect(ternary_factorial(6)).to be 720
+    expect(ternary_factorial(7)).to be 5040
+    expect(ternary_factorial(8)).to be 40320
+    expect(ternary_factorial(9)).to be 362880
+    expect(ternary_factorial(10)).to be 3628800
   end
 end
