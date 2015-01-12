@@ -9,8 +9,8 @@ def factorial(number)
   end
 end
 
-# Alternative syntax using terinary operator for the if/else
+# Alternative syntax using ternary operator for the if/else
 # Exact same code as above otherwise
-def terinary_factorial(number)
+def ternary_factorial(number)
   number > 1 ? number * terinary_factorial(number - 1) : 1
 end
