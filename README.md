@@ -14,7 +14,7 @@ By the end of this, students should be able to:
 
 > Recursion is a method where the solution to a problem depends on solutions to many smaller instances of the problem (as opposed to iteration) - Wikipedia
 
-Most computer langauges (such as Ruby, JavaScript and C) allow us to call a function from within itself. The use of this to solve a problem is called *recursion* and is a central idea in computer science. In *functional programming* it is frequently used instead of recursion, depending on the structure of the language.
+Most computer languages (such as Ruby, JavaScript and C) allow us to call a function from within itself. The use of this to solve a problem is called *recursion* and is a central idea in computer science. In *functional programming* it is frequently used instead of iteration, depending on the structure of the language.
 
 One such problem that we can solve recursively is for the [factorial](http://en.wikipedia.org/wiki/Factorial) of a number, which is the product of all positive integers less than or equal to n.
 
@@ -53,7 +53,7 @@ Without a 'base case', you will get a *stack overflow*, which is an error that m
 
 List additional related resources such as videos, blog posts and official documentation.
 
-- [Recusion (video), Harvard CS50](https://www.youtube.com/watch?v=t4MSwiqfLaY)
-- [Recusion (Computer Science), Wikipedia](http://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Introduction to Recusion, Stanford CS106b](http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/05-intro-to-recursion.pdf)
-- [Understanding Recusion, Stack Overflow](http://stackoverflow.com/questions/717725/understanding-recursion)
+- [Recursion (video), Harvard CS50](https://www.youtube.com/watch?v=t4MSwiqfLaY)
+- [Recursion (Computer Science), Wikipedia](http://en.wikipedia.org/wiki/Recursion_(computer_science))
+- [Introduction to Recursion, Stanford CS106b](http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/05-intro-to-recursion.pdf)
+- [Understanding Recursion, Stack Overflow](http://stackoverflow.com/questions/717725/understanding-recursion)
